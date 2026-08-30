@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>
+            Portfolio JP
+        </title>
+
+        <meta name="description" content="Portfolio de Juan Pablo Ojeda. Junior Data Analyst especializado en SQL, Power BI, Python y Front-End Development.">
+        <meta name="author" content="Juan Pablo Ojeda">
+        <meta name="keywords" content="Data Analyst, SQL, Power BI, Python, Portfolio, Front-End">
+        <meta property="og:title" content="Juan Pablo Ojeda | Front-End Developer & Data Analyst">
+        <meta property="og:description" content="Portfolio de Juan Pablo Ojeda. Junior Data Analyst especializado en SQL, Power BI, Python y Front-End Development.">
+        <meta property="og:image" content="https://tu-dominio.com/assets/image/og-preview.jpg">
+        <meta property="og:type" content="website">
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" href="assets/favicon.png">
+
+    </head>
+
+    <body>
+        <div class="background-blobs">
+            <span class="blob blob-1"></span>
+            <span class="blob blob-2"></span>
+        </div>
+
+        <!-- ===HEADER=== -->
+        <header class="header nav-intro">
+
+            <!-- ===LOGO=== -->
+            <a 
+                class="logo"
+                href="#hero" 
+                aria-label="Inicio">
+
+                <img 
+                    src="assets/image/JP.png" 
+                    alt="Juan Pablo Ojeda Logo">
+            </a>
+
+            <!-- ===NAVEGATION=== -->
+            <nav 
+                class="navbar" 
+                aria-label="Main Navigation">
+
+                <ul class="nav-menu">
+
+                    <!-- ===MENU NAV=== -->
+                    <li>
+                        <a 
+                            data-i18n="menu-nav.start" 
+                            href="#hero">
+                            
+                            Inicio
+                        </a>
+                    </li>
+
+                    <!-- ===NAV PROJECTS=== -->
+                    <li>
+                        <a 
+                            data-i18n="menu-nav.projects" 
+                            href="#projects">
+                            
+                            Proyectos
+                        </a>
+                    </li>
+
+                    <!-- ===NAV SKILLS=== -->
+                    <li>
+                        <a 
+                            data-i18n="menu-nav.skills" 
+                            href="#skills">
+                        
+                            Habilidades
+                        </a>
+                    </li>
+
+                    <!-- ===NAV ABOUT ME=== -->
+                    <li>
+                        <a 
+                            data-i18n="menu-nav.about-me" 
+                            href="#about">
+                            
+                            Sobre mí
+                        </a>
+                    </li>
+                    
+                    <!-- ===NAV CONTACT=== -->
+                    <li>
+                        <a 
+                            data-i18n="menu-nav.contact" 
+                            href="#contact">
+                            
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- ===HAMBURGER=== -->
+            <button
+                class="hamburger" 
+                aria-label="Abrir menú"
+                aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <!-- ===MENU MOBILE=== -->
+        <div class="mobile-menu">
+            <button 
+                class="close-menu" 
+                aria-label="Cerrar menú">
+
+                ✕
+            </button>
+
+            <a href="#hero">Inicio</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#contact">Contacto</a>
+        </div>
+
+        <!-- ===MENU OVERLAY=== -->
+        <div class="menu-overlay"></div>
+
+        <!-- ===MAIN=== -->
+        <main id="main-content">
+
+            <!-- ===SECTION HERO=== -->
+            <section id="hero" class="hero">
+                
+                <!-- ===CONTENT=== -->
+                <div class="hero-content">
+                
+                    <p class="hero-greeting intro delay-1">Hola, soy</p>
+
+                    <!-- ===NAME=== -->
+                    <h1 class="hero-name intro delay-2">
+                        Juan Pablo
+                        <span>Ojeda</span>
+                    </h1>
+
+                    <!-- ===ROLE=== -->
+                    <h2 
+                        class="hero-role intro delay-3" 
+                        data-i18n="hero-role">
+
+                        Junior Data Analyst
+                        <span>&</span>
+                        Front-End Developer
+                    </h2>
+
+                    <!-- ===DESCRIPTION=== -->
+                    <p 
+                        class="hero-description intro delay-4" 
+                        data-i18n="hero-description">
+
+                        Transformo datos en información útil y soluciones digitales. Combino SQL, Power BI y Python con desarrollo Front-End para analizar, visualizar y convertir datos en herramientas prácticas para el negocio.
+                    </p>
+
+                    <!-- ===ACTIONS=== -->
+                    <div class="hero-actions intro delay-5">
+                        <a 
+                            href="#projects" 
+                            class="btn-primary" 
+                            data-i18n="hero.btn_projects">
+
+                            Ver proyectos
+                        </a>
+
+                        <a 
+                            href="assets/cv/CV-Juan-Pablo-Ojeda.pdf"
+                            class="btn-outline"
+                            download="CV-Juan-Pablo-Ojeda.pdf">
+                            
+                            Descargar CV
+                        </a>                   
+                    </div>
+
+                    <!-- ===STACKS=== -->
+                    <div class="hero-stack intro delay-6">
+                        <span class="sql">SQL</span>
+                        <span class="powerbi">Power BI</span>
+                        <span class="python">Python</span>
+                        <span class="excel">Excel</span>
+                        <span class="javascript">JavaScript</span>
+                        <span class="react">React</span>
+                        <span class="git">Git</span>
+                    </div>
+                </div>
+                
+                <!-- ===VISUAL IMG=== -->
+                <figure class="hero-visual intro delay-7">
+
+                    <!-- ===IMG PROFILE=== -->
+                    <div class="image-wrapper">
+                        <img
+                            class="profile-image"
+                            src="assets/image/foto-perfil.jpg"
+                            alt="Juan Pablo Ojeda"
+                            loading="eager">
+                    </div>
+
+                    <!-- ===CARDS=== -->
+                    <div class="floating-card floating-card-top active-card">
+
+                        <!-- ===ICONS=== -->
+                        <div class="floating-icon">
+                            <img src="assets/card/data-analyst.svg" alt="data-analyst">
+                        </div>
+
+                        <!-- ===INFO=== -->
+                        <div class="floating-info">
+                            <h3>Data Analytics</h3>
+                            <p>SQL • Power BI • Python</p>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+
+                        <div class="floating-icon">
+                            <img src="assets/card/front-end.svg" alt="front-end">
+                        </div>
+                    
+                        <div class="floating-info">
+                            <h3>Front-End</h3>
+                            <p>HTML • CSS • React</p>
+                        </div>
+                    </div>
+
+                    <!-- ===PHOTO JP=== -->
+                    <figcaption class="sr-only">
+                        Fotografía de Juan Pablo Ojeda
+                    </figcaption>
+                </figure>
+            </section>
+
+
+
+
+        
+            <!-- ===SECTION PROJECTS=== -->
+            <section id="projects" class="projects reveal">
+
+                <!-- ===HEADER PROJECTS=== -->
+                <div class="section-header">
+
+                    <span class="section-tag">
+                        Portfolio
+                    </span>
+                
+                    <h2
+                        class="section-title"
+                        data-i18n="projects.title">
+
+                        Proyectos Destacados
+                    </h2>
+                
+                    <p
+                        class="section-description"
+                        data-i18n="projects.description">
+                
+                        Algunos de los proyectos donde apliqué análisis de datos y desarrollo web para resolver problemas reales.
+                    </p>
+                </div>
+                
+                <!-- ===GRID PROJECTS=== -->
+                <div class="projects-grid">
+
+                    <!-- ===PROJECT 1=== -->
+                    <article class="project-card reveal-card">
+
+                        <div class="project-image">
+                            <img
+                                src="assets/projects/Portfolio.png"
+                                alt="Portfolio"
+                                loading="lazy">
+                        </div>
+                    
+                        <div class="project-content">
+
+                            <span class="project-category">
+                                Front-End
+                            </span>
+                        
+                            <h3>
+                                Portfolio Personal
+                            </h3>
+                        
+                            <p>
+                                Portfolio profesional responsive, construido en HTML, CSS y JavaScript puro, con foco en accesibilidad y rendimiento.
+                            </p>
+                        
+                            <div class="project-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        
+                            <div class="project-links">
+                            
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                            
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                
+                    <!-- ===PROJECT 2=== -->
+                    <article class="project-card reveal-card">
+                
+                        <div class="project-image">
+                            <img
+                                src="assets/projects/proyecto-1.jpg"
+                                alt="Sales Dashboard"
+                                loading="lazy">
+                        </div>
+                        
+                        <div class="project-content">
+                            <span class="project-category">
+                                Data Analytics
+                            </span>
+                        
+                            <h3>
+                                Sales Dashboard
+                            </h3>
+                        
+                            <p>
+                                Dashboard interactivo para analizar ventas, ingresos y rendimiento  comercial utilizando SQL, Power BI y Python.
+                            </p>
+                        
+                            <div class="project-stack">
+                                <span>SQL</span>
+                                <span>Power BI</span>
+                                <span>Python</span>
+                            </div>
+                        
+                            <div class="project-status">
+                                🟡 En desarrollo
+                            </div>
+                        </div>
+                    </article>
+                
+                    <!-- ===PROJECT 3=== -->
+                    <article class="project-card reveal-card">
+                
+                        <div class="project-image">
+                            <img
+                                src="assets/projects/proyecto-2.jpg"
+                                alt="Customer Analysis"
+                                loading="lazy">
+                        </div>
+                    
+                        <div class="project-content">
+                            <span class="project-category">
+                                Data Analytics
+                            </span>
+                        
+                            <h3>
+                                Customer Analysis
+                            </h3>
+                        
+                            <p>
+                                Exploración de datos de clientes para identificar patrones de   compra, segmentación y métricas de negocio.
+                            </p>
+                        
+                            <div class="project-stack">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Excel</span>
+                            </div>
+                        
+                            <div class="project-status">
+                                🟡 En desarrollo
+                            </div>
+                        </div>
+                    </article>
+                
+                </div>
+            </section>
+        
+            <!-- ===SECTION SKILLS=== -->
+            <section id="skills" class="skills reveal">
+                
+                <!-- ===HEADER SKILLS=== -->
+                <div class="section-header">
+                    
+                    <!-- ===TAG=== -->
+                    <span class="section-tag">
+                        Technología
+                    </span>
+                    
+                    <!-- ===TITLE=== -->
+                    <h2
+                        class="section-title"
+                        data-i18n="skills.title">
+                
+                        Habilidades Técnicas
+                    </h2>
+
+                    <!-- ===DESCRIPTION=== -->
+                    <p
+                        class="section-description"
+                        data-i18n="skills.description">
+                
+                        Tecnologías con las que trabajo actualmente.
+                    </p>
+                </div>
+            
+                <!-- ===SKILLS CONTAINER=== -->
+                <div class="skills-container">
+
+                    <!-- DATA -->            
+                    <article class="skill-category reveal-card">
+                        <h3>
+                            📊 Data Analytics
+                        </h3>
+                        
+                        <!-- ===SKILLS=== -->
+                        <div class="skills-grid">
+                            
+                            <!-- ===SQL=== -->
+                            <div class="skill-sql">
+                                <img src="assets/skills/SQL.png" alt="SQL" loading="lazy">
+                                <span>SQL</span>
+                            </div>
+                            
+                            <!-- ===POWER BI=== -->
+                            <div class="skill-power-bi">
+                                <img src="assets/skills/power-bl.png" alt="Power BI" loading="lazy">
+                                <span>Power BI</span>
+                            </div>
+                                                        
+                            <!-- ===EXCEL=== -->
+                            <div class="skill-excel">
+                                <img src="assets/skills/excel.png" alt="Excel" loading="lazy">
+                                <span>Excel</span>
+                            </div>
+                            
+                            <!-- ===PANDAS=== -->
+                            <div class="skill-pandas">
+                                <img src="assets/skills/pandas.png" alt="Pandas" loading="lazy">
+                                <span>Pandas</span>
+                            </div>
+                        </div>
+                    </article>
+                
+                    <!-- FRONTEND -->            
+                    <article class="skill-category reveal-card">
+                        <h3>
+                            💻 Front-End
+                        </h3>
+                        
+                        <!-- ===SKILLS=== -->
+                        <div class="skills-grid">
+                            
+                            <!-- ===HTML=== -->
+                            <div class="skill-html">
+                                <img src="assets/skills/html.png" alt="HTML" loading="lazy">
+                                <span>HTML</span>
+                            </div>
+                            
+                            <!-- ===CSS=== -->
+                            <div class="skill-css">
+                                <img src="assets/skills/css.png" alt="CSS" loading="lazy">
+                                <span>CSS</span>
+                            </div>
+                            
+                            <!-- ===JS=== -->
+                            <div class="skill-js">
+                                <img src="assets/skills/javascript.png" alt="JavaScript" loading="lazy">
+                                <span>JavaScript</span>
+                            </div>
+                            
+                            <!-- ===REACT=== -->
+                            <div class="skill-react">
+                                <img src="assets/skills/reactjs.png" alt="React" loading="lazy">
+                                <span>React</span>
+                            </div>
+                        </div>
+                    </article>
+                
+                    <!-- BACKEND -->            
+                    <article class="skill-category reveal-card">
+                        <h3>
+                            ⚙️ Backend
+                        </h3>
+                        
+                        <!-- ===SKILLS=== -->
+                        <div class="skills-grid">
+                            
+                            <!-- ===NODE JS=== -->
+                            <div class="skill-node">
+                                <img src="assets/skills/nodejs.png" alt="Node.js" loading="lazy">
+                                <span>Node.js</span>
+                            </div>
+                            
+                            <!-- ===MYSQL=== -->
+                            <div class="skill-mysql">
+                                <img src="assets/skills/mysql.png" alt="MySQL" loading="lazy">
+                                <span>MySQL</span>
+                            </div>
+                            
+                            <!-- ===MONGO DB=== -->
+                            <div class="skill-mongo">
+                                <img src="assets/skills/mongodb.png" alt="MongoDB" loading="lazy">
+                                <span>MongoDB</span>
+                            </div>
+                            
+                            <!-- ===PYTHON=== -->
+                            <div class="skill-python">
+                                <img src="assets/skills/python.png" alt="Python" loading="lazy">
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </article>
+                
+                    <!-- TOOLS -->            
+                    <article class="skill-category reveal-card">
+                        <h3>
+                            🛠 Herramientas
+                        </h3>
+                        
+                        <!-- ===SKILLS=== -->
+                        <div class="skills-grid">
+
+                            <!-- ===GIT HUB=== -->
+                            <div class="skill-github">
+                                <img src="assets/skills/github.png" alt="GitHub" loading="lazy">
+                                <span>GitHub</span>
+                            </div>
+                            
+                            <!-- ===VS CODE=== -->
+                            <div class="skill-vs">
+                                <img src="assets/skills/VSC.png" alt="VS Code" loading="lazy">
+                                <span>VS Code</span>
+                            </div>
+                            
+                            <!-- ===GIT=== -->
+                            <div class="skill-git">
+                                <img src="assets/skills/git.png" alt="Git" loading="lazy">
+                                <span>Git</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            
+            <!-- ===SECTION ABOUT=== -->
+            <section id="about" class="about reveal">
+                
+                <!-- ===HEADER ABOUT=== -->
+                <div class="section-header">
+
+                    <!-- ===TAG=== -->
+                    <span class="section-tag">
+                        Conóceme
+                    </span>
+                    
+                    <!-- ===TITLE=== -->
+                    <h2
+                        class="section-title"
+                        data-i18n="about.title">
+                
+                        Sobre mí
+                    </h2>
+                    
+                    <!-- ===DESCRIPTION=== -->
+                    <p
+                        class="section-description"
+                        data-i18n="about.subtitle">
+                
+                        Mi camino profesional y cómo aplico la tecnología para resolver problemas.
+                    </p>
+                </div>
+                
+                <!-- ===ABOUT STATS=== -->
+                <div class="about-stats">
+
+                    <div class="stat-card reveal-card">
+                        <h3>3+</h3>
+                        <p>Años de experiencia</p>
+                    </div>
+                
+                    <div class="stat-card reveal-card">
+                        <h3>10+</h3>
+                        <p>Tecnologías</p>
+                    </div>
+                
+                    <div class="stat-card reveal-card">
+                        <h3>2+</h3>
+                        <p>Proyectos</p>
+                    </div>
+                
+                    <div class="stat-card reveal-card">
+                        <h3>2</h3>
+                        <p>Especialidades</p>
+                    </div>
+                </div>
+
+                <!-- ===CONTAINER ABOUT=== -->
+                <div class="about-container">
+                
+                    <!-- ===PHOTO AVATAR=== -->
+                    <div class="about-image">
+                        <img
+                            class="avatar-normal"
+                            src="assets/image/Avatar-1.png"
+                            alt="Juan Pablo Ojeda">
+
+                        <img 
+                            class="avatar-hover" 
+                            src="assets/image/Avatar-2.png" 
+                            alt="Juan Pablo saludando">
+                    </div>
+                
+                    <!-- ===CONTEXT=== -->
+                    <div class="about-content">
+                        <h3>
+                            Junior Data Analyst & Front-End Developer 
+                        </h3>
+                        
+                        <!-- ===PROFESION=== -->
+                        <p>
+                            Cuento con experiencia en el área administrativo-comercial, gestionando información, coordinando procesos y resolviendo problemas en entornos operativos. Esa experiencia despertó mi interés por el análisis de datos y la búsqueda de soluciones más eficientes.
+                        </p>
+
+                        <!-- ===ACTUALLY=== -->
+                        <p>
+                           Actualmente combino SQL, Power BI y Python para analizar información con HTML, CSS, JavaScript y React para desarrollar interfaces y herramientas que la conviertan en algo útil y accesible.
+                        </p>
+
+                        <!-- ===GOAL=== -->
+                        <p>
+                            Mi objetivo es seguir creciendo hacia Full Stack y automatización, creando soluciones que no solo analicen datos, sino que también optimicen procesos y resuelvan problemas concretos de negocio.
+                        </p>
+                    
+                        <!-- ===SOFT SKILLS=== -->
+                        <div class="about-soft-skills">
+                            <span>✔ Pensamiento Analítico</span>
+                            <span>✔ Resolución de Problemas</span>
+                            <span>✔ Trabajo en Equipo</span>
+                            <span>✔ Comunicación</span>
+                            <span>✔ Aprendizaje Continuo</span>
+                            <span>✔ Adaptabilidad</span>
+                        </div>
+                    
+                        <!-- ===BUTTON=== -->
+                        <a
+                            href="assets/cv/CV-Juan-Pablo-Ojeda.pdf"
+                            class="btn-primary"
+                            download="CV-Juan-Pablo-Ojeda.pdf">
+                    
+                            Descargar CV
+                        </a>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- ===SECTION CERTIFICATIONS=== -->
+            <section id="certifications" class="certifications reveal">
+
+                <div class="section-header">
+                    <span class="section-tag">Formación</span>
+                    <h2 class="section-title">Educación & Certificaciones</h2>
+                    <p class="section-description">Formación académica y técnica en análisis de datos, programación y desarrollo.</p>
+                </div>
+            
+                <div class="certifications-list">
+
+                    <a href="assets/certifications/Certificacion_PowerBI_Ojeda.pdf" target="_blank" rel="noopener noreferrer" class="certification-row">
+                        <img src="assets/image/Santander.png" alt="Santander Open Academy" loading="lazy" class="certification-row-logo">
+                        <div class="certification-row-info">
+                            <h3>Power BI </h3>
+                            <p>Santander Open Academy</p>
+                        </div>
+                        <span class="certification-row-year">2026</span>
+                    </a>
+                
+                    <a href="assets/certifications/Certificacion_IntroduccionCienciaDeDatos_Ojeda.pdf" target="_blank"  rel="noopener noreferrer" class="certification-row">
+                        <img src="assets/image/Santander.png" alt="Santander Open Academy" loading="lazy" class="certification-row-logo">
+                        <div class="certification-row-info">
+                            <h3>Introducción a la Ciencia de Datos</h3>
+                            <p>Santander Open Academy</p>
+                        </div>
+                        <span class="certification-row-year">2026</span>
+                    </a>
+
+                    <a href="assets/certifications/Certificacion_FundamentosDePython1_Ojeda.pdf" target="_blank" rel="noopener noreferrer" class="certification-row">
+                        <img src="assets/image/Cisco.png" alt="Cisco Networking Academy" loading="lazy" class="certification-row-logo">
+                        <div class="certification-row-info">
+                            <h3>Python Fundamentals I</h3>
+                            <p>Cisco Networking Academy</p>
+                        </div>
+                        <span class="certification-row-year">2025</span>
+                    </a>
+                
+                    <a href="assets/certifications/Certificacion_FundamentosDePython2_Ojeda.pdf" target="_blank" rel="noopener noreferrer" class="certification-row">
+                        <img src="assets/image/Cisco.png" alt="Cisco Networking Academy" loading="lazy" class="certification-row-logo">
+                        <div class="certification-row-info">
+                            <h3>Python Fundamentals II</h3>
+                            <p>Cisco Networking Academy</p>
+                        </div>
+                        <span class="certification-row-year">2025</span>
+                    </a>
+
+                    <a href="assets/certifications/Certificacion_Full-Stack_Ojeda.pdf" target="_blank" rel="noopener noreferrer" class="certification-row">
+                        <img src="assets/image/utn.png" alt="UTN" loading="lazy" class="certification-row-logo">
+                        <div class="certification-row-info">
+                            <h3>Full Stack Developer</h3>
+                            <p>Universidad Tecnológica Nacional</p>
+                        </div>
+                        <span class="certification-row-year">2024</span>
+                    </a>
+
+                    <!-- INGENIERÍA EN SISTEMAS -->
+                    <div class="certification-row">
+                        <img src="assets/image/utn.png"
+                             alt="Universidad Tecnológica Nacional"
+                             loading="lazy"
+                             class="certification-row-logo">
+                        <div class="certification-row-info">
+                            <h3>Ingeniería en Sistemas</h3>
+                            <p>Universidad Tecnológica Nacional · 3 años cursados</p>
+                        </div>
+                        <span class="certification-row-year">2021 – 2023</span>
+                    </div>            
+                </div>
+            </section>
+            
+            <!-- ===SECTION CONTACT=== -->
+            <section id="contact" class="contact reveal">
+                
+                <!-- ===HEADER=== -->
+                <div class="section-header">
+
+                    <!-- ===TAG=== -->
+                    <span class="section-tag">
+                        Contacto
+                    </span>
+                    
+                    <!-- ===TITLE=== -->
+                    <h2 class="section-title">
+                        Trabajemos juntos
+                    </h2>
+                    
+                    <!-- ===DESCRIPTION=== -->
+                    <p class="section-description">
+                        Estoy disponible para nuevas oportunidades y colaboraciones.
+                    </p>
+                </div>
+                
+                <!-- ===CONTAINER CONTACT=== -->
+                <div class="contact-container">
+                    
+                    <!-- ===INFO=== -->
+                    <div class="contact-info">
+                        <h3>
+                            Información
+                        </h3>
+                        
+                        <!-- ===CONTACT LIST=== -->
+                        <ul>    
+                            <!-- ===EMAIL=== -->
+                            <li>
+                                <img 
+                                    src="assets/contact/gmail.svg"   alt="Email">
+
+                                <a href="mailto:juampyojeda.dev@gmail.com">
+                                    juampyojeda.dev@gmail.com
+                                </a>
+                            </li>
+                            
+                            <!-- ===LINKEDIN=== -->
+                            <li>
+                                <img 
+                                    src="assets/contact/linkedin.svg"   alt="LinkedIn">
+
+                                <a
+                                    href="https://www.linkedin.com/in/juanpojeda/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="LinkedIn">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            
+                            <!-- ===GIT HUB=== -->
+                            <li>
+                                <img 
+                                    src="assets/contact/github.svg" alt="GitHub">
+
+                                <a
+                                    href="https://github.com/JuampyOjeda"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="GitHub">
+                                    GitHub
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- ===FORM=== -->
+                    <form 
+                        id="contact-form" 
+                        class="contact-form"
+                        action="https://formspree.io/f/mbgrkvbb"
+                        method="post"
+                        aria-label="Formulario de contacto">
+
+                        <!--NAME-->
+                        <label 
+                            class="sr-only" 
+                            for="contact-name">
+                            Nombre
+                        </label>
+                        
+                        <input
+                            id="contact-name"
+                            autocomplete="name"
+                            required name="name"
+                            type="text"
+                            placeholder="Nombre">
+
+                        <!--EMAIL-->
+                        <label 
+                            class="sr-only"
+                            for="contact-email">
+                            Email
+                        </label>
+                    
+                        <input
+                            id="contact-email" 
+                            autocomplete="email"
+                            required name="email"
+                            type="email"
+                            placeholder="Email">
+                        
+                        <!--MESSAGE-->
+                        <label 
+                            class="sr-only"
+                            for="contact-message">
+                            Mensaje
+                        </label>
+
+                        <textarea
+                            id="contact-message"
+                            name="message"
+                            placeholder="Mensaje"></textarea>
+                        
+                        <!--SUMBIT-->
+                        <button 
+                            type="submit"
+                            class="btn-primary">
+
+                            Enviar mensaje
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- ===FOOTER=== -->
+        <footer class="footer">
+
+            <!-- ===CONTENT=== -->
+            <div class="footer-content">
+                <img 
+                    src="assets/image/JuanPabloOjeda.png" 
+                    alt="Juan Pablo Ojeda Logo">
+            
+                <p>
+                    Junior Data Analyst & Front-End Developer
+                </p>
+
+                <p>
+                    Mendoza, Argentina - Disponible para trabajo remoto
+                </p>
+                       
+                <small>
+                    © 2026 JP
+                    Todos los derechos reservados.
+                </small>
+            </div>
+        </footer>
+
+        <!-- ===WHATSAPP=== -->
+        <a
+            href="https://wa.me/5492612400937"  
+            class="whatsapp-btn whatsapp-intro"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contactar por WhatsApp">
+
+            <img
+                src="assets/contact/whatsapp.svg"
+                alt="Whatsapp">
+        </a>
+
+        <!-- ===BTN UP=== -->
+        <button 
+            id="goTopBtn" 
+            aria-label="Volver arriba">
+            
+            <img
+                src="assets/image/up-arrow.png" 
+                alt="">
+        </button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
